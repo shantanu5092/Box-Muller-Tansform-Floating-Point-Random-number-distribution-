@@ -3,9 +3,9 @@ This is a synthesizable block that implements the Box-Muller transform to conver
 
 * The input are two random numbers (Provided by a test bench), A random numbers is produced as output.
 
- a← √−2ln(U1)
+ a ← √−2ln(U1)
  
- b←2πU2
+ b ←2πU2
  
  res ← asin(b)
  
