@@ -1,6 +1,8 @@
 # Box Muller Tansform module (Floating Point Random number distribution)
 This is a synthesizable block that implements the Box-Muller transform to convert two random number to an approximation of a Gaussian random number distribution.
 
+## Overview of Box-Muller block
+
 * The input are two random numbers (Provided by a test bench), A random numbers is produced as output.
 
  a ← √−2ln(U1)
