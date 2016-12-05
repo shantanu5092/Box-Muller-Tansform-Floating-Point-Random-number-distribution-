@@ -2,8 +2,11 @@
 This is a synthesizable block that implements the Box-Muller transform to convert two random number to an approximation of a Gaussian random number distribution.
 
 * The input are two random numbers (Provided by a test bench), A random numbers is produced as output.
+
  a← √−2ln(U1)
+ 
  b←2πU2
+ 
  res ← asin(b)
  
 * U1, U2 are uniformly distributed random numbers ranging from 0 to 1. Zero and One will not appear as U1 or U2. (Removed from the data to make special cases easier)
