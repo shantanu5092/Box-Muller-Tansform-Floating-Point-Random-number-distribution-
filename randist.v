@@ -28,7 +28,7 @@ module randist(clk,rst,pushin,U1,U2,pushout,Z);
   wire [63:0] z2;
   integer j;
 
-  //----------------------------------------------------------declaration for flip-flop variables-----------------------------------------------------
+  //----------------------------------------------------------declaration for flip-flop variables----------------------------------------------------
   reg pushin_ff1,      pushin_ff2;
   wire pushoutU1_d3,    pushoutU2_da,
        pushoutU1_da,    pushoutU2_dab,
